@@ -28,6 +28,7 @@ public class ConcreteGame extends AbstractGame {
 	}
 
 	protected void finishGame(int i) {
+		System.out.println("I'm thinking... Don't rush me.");
 		if (i == 1){
 			System.out.print(PlayerOneName);
 			System.out.println(", you are the best! You win!");
