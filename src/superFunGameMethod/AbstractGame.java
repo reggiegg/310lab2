@@ -12,6 +12,7 @@ public abstract class AbstractGame {
 		setupGame();
 		int p = 0;
 		while (true){
+			System.out.println("I'm thinking... Don't rush me.");
 			if (playerOneTurn()){
 				p = 1;
 				break;
