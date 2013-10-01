@@ -26,11 +26,11 @@ public class ConcreteGame extends AbstractGame {
 	}
 
 	protected boolean playerOneTurn() {
-		return (Math.random()>0.5);
+		return (Math.random()>0.75);
 	}
 
 	protected boolean playerTwoTurn() {
-		return (Math.random()>0.5);		
+		return (Math.random()>0.75);		
 	}
 
 	protected void finishGame(int i) {
