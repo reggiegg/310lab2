@@ -20,14 +20,15 @@ public class ConcreteGame extends AbstractGame {
 	}
 
 	protected boolean playerOneTurn() {
-		return (Math.random()>0.5);
+		return (Math.random()>0.75);
 	}
 
 	protected boolean playerTwoTurn() {
-		return (Math.random()>0.5);		
+		return (Math.random()>0.75);		
 	}
 
 	protected void finishGame(int i) {
+		System.out.println("I'm thinking... Don't rush me.");
 		if (i == 1){
 			System.out.print(PlayerOneName);
 			System.out.println(", you are the best! You win!");
