@@ -13,13 +13,13 @@ public class ConcreteGame extends AbstractGame {
 		System.out.print("Player One enter your name: ");
 		Scanner scanner = new Scanner(System.in);
 		PlayerOneName = scanner.nextLine();
-		System.out.print("Your name is:");
+		System.out.print("Your name is: ");
 		System.out.print(PlayerOneName);
 		System.out.println(". I've never heard that one before.");
 		System.out.print("Player Two enter your name: ");
 		PlayerTwoName = scanner.nextLine();
-		System.out.print("Your name is:");
-		System.out.print(PlayerOneName);
+		System.out.print("Your name is: ");
+		System.out.print(PlayerTwoName);
 		System.out.println(". My mother told me if I couldn't say anything nice...");
 		System.out.println("Wow guys, those are great names!");
 		
